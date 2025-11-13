@@ -2,9 +2,6 @@ FROM node:alpine
 
 LABEL maintainer="Andre Dreyer"
 
-# Install git and configure user
-RUN git config --global user.name "André Dreyer" && git config --global user.email "github@andredreyer.com"
-
 # Claude Code
 RUN npm install -g @anthropic-ai/claude-code
 
