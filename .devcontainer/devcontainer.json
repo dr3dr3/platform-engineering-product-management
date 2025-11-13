@@ -16,10 +16,7 @@
                 "ms-azuretools.vscode-docker",
                 "ms-azuretools.vscode-containers",
                 "github.copilot",
-                "Anthropic.claude-code",
-                "saoudrizwan.claude-dev",
-                "Continue.continue"
-
+                "Anthropic.claude-code"
             ],
             "settings": {
                 "editor.fontFamily": "FiraCode Nerd Font, monospace",
