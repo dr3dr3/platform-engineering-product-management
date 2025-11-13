@@ -5,9 +5,6 @@ LABEL maintainer="Andre Dreyer"
 # Claude Code
 RUN npm install -g @anthropic-ai/claude-code
 
-# Install Cline CLI
-RUN npm install -g cline
-
 # Continue.dev CLI
 RUN npm install -g @continue-dev/cli
 
