@@ -5,9 +5,6 @@ LABEL maintainer="Andre Dreyer"
 # Claude Code
 RUN npm install -g @anthropic-ai/claude-code
 
-# Continue.dev CLI
-RUN npm install -g @continue-dev/cli
-
 # Task Master .dev (MCP)
 RUN npm install -g task-master-ai
 
